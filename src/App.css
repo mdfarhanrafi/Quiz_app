@@ -1,0 +1,109 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     min-height: 400px;
+     width: 400px;
+     background-color: burlywood;
+     border-radius: 15px;
+     box-shadow: 2px 2px 9px 1px #5f4d4d;
+     overflow: hidden;
+     padding: 10px;
+     position: relative; 
+}
+.heading-txt{
+  color: azure;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+.ques_txt{
+  color: azure;
+    font-size: 20px;
+    font-weight:200;
+    margin: 10px;
+    text-align: center;
+    text-transform: lowercase;
+}
+.ques{
+    margin: 8px;
+    background-color: rgb(145, 145, 124);
+    border-radius: 5px;
+    box-shadow: 2px 2px 9px 1px #d0a1a1;
+    padding: 5px;
+    font-size: large;
+    font-weight: 500;
+    min-width: 100%;
+    min-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ques_num{
+  margin-right: 5px;
+}
+.option-container{
+  display: flex;
+  flex-direction: column;
+  margin:  6px 4px;
+  width: 100%;
+  padding: 10px;
+}
+.option_btn{
+   box-shadow: 0px 0px 4px 1px #807B7B;
+   color: rgb(117, 4, 4);
+   padding: 5px;
+   border-radius: 3px;
+   border: none;
+   outline: none;
+   transition: 0.3px;
+   margin: 5px;
+   min-height: 30px;
+   background-color: rgb(159, 135, 135); 
+
+}
+
+.checked{
+      background-color: rgb(211, 42, 42);
+      color: white;
+      box-shadow: 3px 3px 4px 1px rgb(78, 69, 78);
+}
+
+.option_btn:hover{
+  background-color: rgb(209, 132, 178);
+}
+#next_btn{
+  padding: 10px;
+  border: none;
+  background-color: rgba(13, 164, 229, 0.37);
+  color: rgb(144, 50, 50);
+  border-radius: 5px;
+  box-shadow: 3px 3px 2px 1px rgb(127, 109, 109);
+  font-size: large;
+  font-weight: bold;
+  transition: 0.2s;
+  width :150px;
+  position: absolute;
+  bottom: 18px;
+}
+#next_btn :active{
+   box-shadow: none;
+}
+.show{
+  position: absolute;
+  top:20%;
+  font-size: 25px;
+  text-align: center;
+  color: rgb(172, 102, 53);
+}
+
